@@ -5,6 +5,9 @@ on:
     branches:
       - "**"
   # LET THE PIPELINE TRIGGER ON A PUSH TO ALL BRANCHES
+  release:
+    types:
+      - published
 
 env:
   CONTAINER_REPOSITORY: quay.io/bompakat # PUT YOUR OWN USERNAME HERE
